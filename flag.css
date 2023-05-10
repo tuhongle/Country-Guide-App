@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Poppins;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3966EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* CSS for Main */
+
+input,
+label {
+    display: block;
+}
+
+main {
+    width: 40vw;
+    background-color: hsla(0, 0%, 100%, 0.85);
+    padding: 4vw 3vw 5vw 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 3px 40px #2549c9;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+input {
+    box-sizing: border-box;
+    width: 29vw;
+    outline: none;
+    border: none;
+    border-bottom: 0.3vw solid #3868F0;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    padding: 0.7vw 0 0.5vw 1vw;
+    background-color: transparent;
+}
+
+button {
+    box-sizing: border-box;
+    width: 10vw;
+    background-color: #3868F0;
+    color: #FFF;
+    padding: 0.7vw 2vw;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 2vw;
+    font-family: Poppins;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* CSS for Content */
+
+.content {
+    padding-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.flag img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.name {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.extra {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 0.5vw;
+}
+
+.content {
+    display: none;
+}
+
+/* CSS for Invalid & Empty */
+
+.invalid,
+.empty {
+    display: none;
+    text-align: center;
+}
+
+.invalid h3,
+.empty h3 {
+    padding-top: 1.5vw;
+    color: #FB5C79;
+    font-weight: 300;
+    font-size: 1.5vw;
+}

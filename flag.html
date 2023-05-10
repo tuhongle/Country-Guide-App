@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="flag.css">
+        <script defer src="flag.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Country Guide App</title>
+    </head>
+    <body>
+        <main>
+            <section class="search">
+                <input type="text" placeholder="Enter a country name here..." id="search" name="input">
+                <label for="search">
+                    <button type="button">Search</button>
+                </label>
+            </section>
+            <section class="content">
+                <div class="flag">
+                    <img src="https://flagcdn.com/w320/in.png" alt="">
+                </div>
+                <div class="name">India</div>
+                <div class="capital">
+                    <span>Capital:</span>
+                    <span id="capital" class="extra">New Delhi</span>
+                </div>
+                <div class="continent">
+                    <span>Continent:</span>
+                    <span id="continent" class="extra">Asia</span>
+                </div>
+                <div class="population">
+                    <span>Population:</span>
+                    <span id="population" class="extra">1300000000</span>
+                </div>
+                <div class="currency">
+                    <span>Currency:</span>
+                    <span id="currency" class="extra">India rupee - INR</span>
+                </div>
+                <div class="languages">
+                    <span>Common Languages:</span>
+                    <span id="languages" class="extra">English, Hindi, Tamil</span>
+                </div>
+            </section>
+            <section class="invalid">
+                <h3>Please enter a valid country name.</h3>
+            </section>
+            <section class="empty">
+                <h3>The input field cannot be empty</h3>
+            </section>
+        </main>
+    </body>
+</html>
